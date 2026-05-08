@@ -14,4 +14,4 @@ RUN uv pip install --system --editable .
 
 ENV PYTHONUNBUFFERED=1
 
-CMD ["python", "start.py"]
+CMD ["sh", "entrypoint.sh"]
